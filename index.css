@@ -1,0 +1,16 @@
+/* personalizar a barra em geral, aqui estou definindo 10px de largura para a barra vertical
+e 10px de altura para a barra horizontal */
+::-webkit-scrollbar {
+  width:10px;
+  height: 10px;
+  }
+
+::-webkit-scrollbar-track {
+  background:#fff;
+  }
+   
+  /* aqui é a alça da barra, que demonstra a altura que você está na página
+  estou colocando uma cor azul clara nela*/
+  ::-webkit-scrollbar-thumb {
+  background: #7C5E99;
+  }
